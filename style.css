@@ -1,0 +1,331 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.page1{
+    height: 100%;
+    width: 100%;
+    background: url(https://images.unsplash.com/photo-1700427296131-0cc4c4610fc6?q=80&w=1776&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.nav{
+    height: 10%;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+
+.navle{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.navle img{
+    height: 40px;
+}
+
+.navle h1{
+    font-size: 35px;
+    font-weight: 400;
+    color: white;
+}
+
+.navcen{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    background-color: rgba(0,0,0, 0.5);
+    padding: 10px 30px;
+    border-radius: 10px;
+    /* border: 1px solid white; */
+    color: white;
+}
+
+.navcen h4{
+    font-size: 15px;
+    font-weight: 600;
+
+}
+
+.navri button{
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-color: rgba(0,0,0, 0.5);
+    color: white;
+    border: 1px solid white;
+}
+
+.sec{
+    height: 50%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.join h1{
+    margin-bottom: 20px;
+    font-size: 60px;
+    font-weight: 300;
+    color: white;
+}
+
+.join .learn{
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.page2{
+    /* margin-top: 10px; */
+    height: 80%;
+    background-color: black;
+    padding: 20px 60px;
+}
+
+.up{
+    height: 10%;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.up h1{
+    color: white;
+    font-weight: 500;
+}
+
+.down{
+    height: 90%;
+    /* background-color: red; */
+    display: flex;
+    gap: 10px;
+}
+
+.dole,
+.techri{
+    height: 100%;
+    width: 40%;
+    background-color: rgba(255,255,255, 0.1);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 50px;
+    padding-left: 20px;
+}
+
+.dole p{
+    color: #cec9c9;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.dole img{
+    height: 300px;
+}
+
+.dori,
+.techle{
+    height: 100%;
+    width: 65%;
+    background-color: rgba(255,255,255, 0.1);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 10px;
+}
+
+.dori .img1 img{
+    height: 350px;
+    width: 400px;
+    padding-left: 40px;
+    box-shadow: 3px 5px 5px 3px rgba(0,0,0, 0.8);
+}
+
+.dori p,
+.techle p{
+    padding: 20px;
+    line-height: 1.4;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.page3 {
+    height: 80%;
+    background-color: black;
+    display: flex;
+    padding: 40px 60px;
+    gap: 10px;
+}
+
+.techle{
+    height: 100%;
+    width: 65%;
+    /* background-color: red; */
+}
+
+.techle .img2 img{
+    height: 350px;
+    width: 420px;
+    padding-left: 40px;
+    box-shadow: 3px 5px 5px 3px rgba(0,0,0, 0.8);
+}
+
+
+.techri{
+    height: 100%;
+    width: 35%;
+    /* background-color: blue; */
+}
+
+.techri img{
+    height: 350px;
+    width: 400px;
+}
+
+.techri p{
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.page4{
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+}
+
+.bottom{
+    height: 40%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.pricebtn .price1{
+    margin-bottom: 20px;
+    padding: 8px 12px;
+    font-size: 15px;
+    border: none;
+    border-radius: 25px;
+    background-color: blue;
+    color: white;
+}
+
+.pricebtn h1{
+    font-size: 50px;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.marketing button{
+    padding: 10px 20px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    margin-left: 10px;
+    border-radius: 25px;
+}
+
+.bottom1{
+    height: 60%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    height: 400px;
+    width: 400px;
+    background-color:rgba(255,255,255, 0.1);
+    padding-top: 20px;
+    padding-left: 30px;
+    border-radius: 10px;
+}
+
+.upper{
+    height: 15%;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    /* gap: 10px; */
+}
+
+.upper button{
+    margin-left: 20px;
+    padding: 8px 15px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+}
+
+.dollar{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    /* padding-left: 30px; */
+    color: white;
+}
+
+.dollar h1{
+    font-size: 120px;
+    font-weight: 500;
+}
+
+.dollar p{
+    font-size: 50px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.last{
+    margin-bottom: 8px;
+}
+
+.last label{
+    color: white;
+}
+
+.pp{
+    margin-bottom: 15px;
+    color: white;
+}
+
+.ltbtn button{
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    margin-top: 15px;
+}
